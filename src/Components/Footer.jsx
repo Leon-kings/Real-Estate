@@ -1,7 +1,6 @@
 import React from "react";
 import { assets } from "../assets/assets";
-import { Link } from "react-router-dom";
-React;
+React
 const Footer = () => {
   return (
     <div
@@ -10,20 +9,28 @@ const Footer = () => {
     >
       <div className="flex container mx-auto flex-col md:flex-row justify-between items-center">
         <div className="w-full md:w-1/3 mb-8 md:mb-0">
-          <img src={assets.logo_dark} alt="" className="w-20 h-20 rounded-xl" />
+          <img src={assets.logo_dark} alt="" className="w-20 h-20 rounded-xl"/>
           <p className="text-gray-400 mt-4">
-            LD delivers top-quality real estate solutions, focused on your needs
-            and satisfaction, helping you find your perfect property
+            RealEstate delivers top-quality real estate solutions, focused on
+            your needs and satisfaction, helping you find your perfect property
             effortlessly.
           </p>
         </div>
         <div className="w-full md:w-1/5 mb-8 md:mb-0">
           <h4 className="text-white text-lg font-bold mb-4">Company</h4>
           <ul className="flex flex-col gap-2 text-gray-400">
-            <Link className="hover:text-white">Home</Link>
-            <Link className="hover:text-white"> About</Link>
-            <Link className="hover:text-white">Projects</Link>
-            <Link className="hover:text-white">Testimonial</Link>
+            <a href="#Header" className="hover:text-white">
+              Home
+            </a>
+            <a href="#About" className="hover:text-white">
+              About
+            </a>
+            <a href="#Projects" className="hover:text-white">
+              Projects
+            </a>
+            <a href="#Testimonials" className="hover:text-white">
+              Testimonial
+            </a>
           </ul>
         </div>
         <div className="w-full md:w-1/3">
@@ -45,7 +52,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-t border-gray-700 py-4 mt-10 text-center text-gray-500">
-        &copy; {new Date().getFullYear()} LD. All rights reserved.
+        &copy; {new Date().getFullYear()} RealEstate. All rights reserved.
       </div>
     </div>
   );
