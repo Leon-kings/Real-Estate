@@ -11,13 +11,13 @@ const Footer = () => {
         <div className="w-full md:w-1/3 mb-8 md:mb-0">
           <img src={assets.logo_dark} alt="" className="w-20 h-20 rounded-xl"/>
           <p className="text-gray-400 mt-4">
-            RealEstate delivers top-quality real estate solutions, focused on
+            LD delivers top-quality real estate solutions, focused on
             your needs and satisfaction, helping you find your perfect property
             effortlessly.
           </p>
         </div>
         <div className="w-full md:w-1/5 mb-8 md:mb-0">
-          <h4 className="text-white text-lg font-bold mb-4">Company</h4>
+          <h4 className="text-white text-lg font-bold mb-4">LD</h4>
           <ul className="flex flex-col gap-2 text-gray-400">
             <a href="#Header" className="hover:text-white">
               Home
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-t border-gray-700 py-4 mt-10 text-center text-gray-500">
-        &copy; {new Date().getFullYear()} RealEstate. All rights reserved.
+        &copy; {new Date().getFullYear()} LD. All rights reserved.
       </div>
     </div>
   );

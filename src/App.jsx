@@ -5,7 +5,7 @@ import Header from "./Components/Header";
 import Projects from "./Components/Projects";
 import Testimonial from "./Components/Testimonial";
 import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import "./App.css";
 import Footer from "./Components/Footer";
 import ScrollToTopIcon from "./Components/ScrollToTopIcon";
 React;
