@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+React;
 const ScrollToTopIcon = () => {
   const [showIcon, setShowIcon] = useState(false);
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { assets, testimonialsData } from "../assets/assets";
 import { motion } from "motion/react";
-
+React;
 const Testimonial = () => {
   return (
     <motion.div
@@ -13,7 +13,6 @@ const Testimonial = () => {
       id="Testimonials"
     >
       <h3 className="text-2xl sm:text-4xl font-bold mb-2 text-center">
-        Customer{" "}
         <span className="underline underline-offset-4 decoration-1 under font-light">
           Testimonials
         </span>
@@ -22,11 +21,11 @@ const Testimonial = () => {
         Hear from our clients about the impact of our services.
       </p>
 
-      <div className="flex flex-wrap justify-center gap-8">
+      <div className=" grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 justify-center gap-2">
         {testimonialsData.map((testimonial, index) => (
           <div
             key={index}
-            className="max-w-[340px] border shadow-lg rounded px-8 py-12 text-center"
+            className="w-full border shadow-lg rounded px-8 py-12 text-center"
           >
             <img
               className="w-20 h-20 rounded-full mx-auto mb-4"

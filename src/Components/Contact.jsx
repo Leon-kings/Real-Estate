@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { toast } from "react-toastify";
 import { motion } from "motion/react";
-
+React;
 const Contact = () => {
   const [result, setResult] = useState("");
 
